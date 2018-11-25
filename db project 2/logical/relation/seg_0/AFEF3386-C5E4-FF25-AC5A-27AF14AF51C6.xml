@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="positions_players" directorySegmentName="seg_0" id="AFEF3386-C5E4-FF25-AC5A-27AF14AF51C6">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:09:08 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>56F1456D-7E4F-5C7A-4B03-3D86F2BF9C01</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B37706D3-7241-A8D1-788B-C14EAAD82A0B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

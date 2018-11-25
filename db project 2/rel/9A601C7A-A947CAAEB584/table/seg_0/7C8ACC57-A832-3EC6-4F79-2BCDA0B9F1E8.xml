@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C8ACC57-A832-3EC6-4F79-2BCDA0B9F1E8" name="matches">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>3C2AD7CE-888C-4E37-C7B7-692BA425350F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="match_id" id="CE2FAD90-30EA-F20E-2881-CA94BDBE4B25">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>90BC5B27-4479-C07E-B49F-0C57854B8313</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="27E0E788-480B-38C7-7E2F-1679D61CF28D">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>6115753E-9776-684A-4272-D364DAFADA8F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minutes_played" id="84A2DCEF-4325-BC4D-339B-7D56DFB81424">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>235FAE4C-8A74-1ED6-AF6A-9AE735C8B7DA</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weather" id="74B89EAF-DA0C-F479-5023-670E2EE0A935">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>44F2055D-F3ED-289E-7873-1188021E36F5</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calendar_calendar_id" id="71469269-1299-9C15-5EC7-40EA92E24E73">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>A5D9EE9D-B984-FEF1-5026-FD612C862337</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DACAA29-C75B-7667-76E4-F7BD79471D33" referredColumn="7F18AD29-7A7E-1131-6116-FE9CB48496AC"/>
+</associations>
+</Column>
+<Column name="referees_referees_id" id="733A4732-0774-4E9D-7A3F-4874E1602FD4">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>F95C78BB-CA1B-6047-0C61-478EEF7E762E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D66B366-ADBD-4247-0EBE-A3836998BAD2" referredColumn="FD18AA04-F1C9-B954-94BF-55C6E4C24901"/>
+</associations>
+</Column>
+<Column name="stadiums_stadium_id" id="E3675B50-0491-248A-2D88-F62525D4F1F5">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>6DECF64B-DF72-64C0-1704-90E9D5A8707D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F9746F3-23F5-03C4-4CB1-4DD77C499447" referredColumn="5A595CB0-F8C1-CF99-E054-9F2A52F2C372"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D464F281-78F7-F01B-8087-531C28119950" name="matches_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>01D55665-3109-7E63-8614-0373E584FE1E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE2FAD90-30EA-F20E-2881-CA94BDBE4B25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AEFE1BB-A635-07A8-93BD-B1BE0FFE2C5D" name="matches__IDX">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="71469269-1299-9C15-5EC7-40EA92E24E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="432E639F-2158-BD1C-7060-2BB5733585DB" name="matches__IDXv1">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>482C392A-E923-2EED-8D6C-CC16D16397C3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="733A4732-0774-4E9D-7A3F-4874E1602FD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3EEF23E-3709-34EA-1F6C-4C298D5C0AD0" name="matches_calendar_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71469269-1299-9C15-5EC7-40EA92E24E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A2CA54C-49D0-CA5C-BDAD-091F4D555468" name="matches_referees_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>482C392A-E923-2EED-8D6C-CC16D16397C3</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="733A4732-0774-4E9D-7A3F-4874E1602FD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="148599F5-40F3-B1DC-E071-81D262EFB29E" name="matches_stadiums_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>A99D51DF-EA2D-A66D-C327-22690DCF96E4</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3675B50-0491-248A-2D88-F62525D4F1F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

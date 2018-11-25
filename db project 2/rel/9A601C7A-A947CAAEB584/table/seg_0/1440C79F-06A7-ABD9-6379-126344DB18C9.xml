@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1440C79F-06A7-ABD9-6379-126344DB18C9" name="injuries">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:19:32 UTC</createdTime>
+<generatorID>AA0E3D9A-110D-71E2-E74B-939F77C75062</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="injury_id" id="F24C1381-451A-9190-8170-913E8BE09E9D">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:19:32 UTC</createdTime>
+<generatorID>21260DC5-03A5-5543-A040-BCC0D878EF57</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="AA04349F-B595-66D9-EE75-9EA6BA896FF2">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:19:32 UTC</createdTime>
+<generatorID>FDA383B0-0726-D4D8-AC65-4CB441C9DE66</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F0D925AB-98BC-E69A-C1AF-8E03A9C0E0BC">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:19:32 UTC</createdTime>
+<generatorID>080A10F3-BED9-6A04-C1DC-2FF6B44FA133</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="995BC1DC-F7B0-8A1B-A68A-9453403A3295" name="injuries_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:19:32 UTC</createdTime>
+<generatorID>30ACE47C-8ACA-C14A-F538-0185725A1A73</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F24C1381-451A-9190-8170-913E8BE09E9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

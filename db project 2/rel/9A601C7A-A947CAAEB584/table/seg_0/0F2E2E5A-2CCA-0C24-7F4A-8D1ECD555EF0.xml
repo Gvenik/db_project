@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F2E2E5A-2CCA-0C24-7F4A-8D1ECD555EF0" name="transfers">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:04:45 UTC</createdTime>
+<generatorID>46C40EEB-AA7E-F47B-5060-E6EAAEEE30EC</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transfer_id" id="692FBBD0-9826-4FE6-D234-EB1AA3BF4C25">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:04:45 UTC</createdTime>
+<generatorID>3E107333-D254-1C98-F07A-5CD33CFAC9CF</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="67135DB0-B7E9-A7CC-FF43-4AB7E254E9CC">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:04:45 UTC</createdTime>
+<generatorID>E8040058-6D97-86B1-20CF-8D40C06B81E0</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="758A247D-8D19-780E-A0FD-AB5A27284051">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:04:45 UTC</createdTime>
+<generatorID>9A8F96F4-2F53-E9D2-E863-8DDC3551769F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="players_employee_id" id="011D8A60-1F3E-C58F-9F53-96898459C02B">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:04:45 UTC</createdTime>
+<generatorID>46041116-DE63-F696-CD2F-B01F14579CD7</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E2251F6-C288-4D0B-C99C-C002B3FA24FD" referredColumn="013A1478-B491-05C2-F99F-D4432C1668E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56DC863E-746B-B12C-598F-1CFF6275C7B5" name="transfers_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:04:45 UTC</createdTime>
+<generatorID>29509499-B204-963A-D1FF-3CBC893764D4</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="692FBBD0-9826-4FE6-D234-EB1AA3BF4C25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E033B874-6833-7166-FF00-BAD772033D42" name="transfers__IDX">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:04:45 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7C3AA9A7-96C4-3DD7-FCD8-F734122C58CF</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="011D8A60-1F3E-C58F-9F53-96898459C02B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91E57CBF-49EF-B340-DB29-1933C88BEBD8" name="transfers_players_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:04:45 UTC</createdTime>
+<generatorID>7C3AA9A7-96C4-3DD7-FCD8-F734122C58CF</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="011D8A60-1F3E-C58F-9F53-96898459C02B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

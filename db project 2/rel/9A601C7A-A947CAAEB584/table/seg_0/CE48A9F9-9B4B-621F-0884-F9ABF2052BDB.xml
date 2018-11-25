@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE48A9F9-9B4B-621F-0884-F9ABF2052BDB" name="stadiums">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>05E776F8-F4F0-9473-EF71-C7C182986CAB</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stadium_id" id="5A595CB0-F8C1-CF99-E054-9F2A52F2C372">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>420A517E-E5B7-B9A1-C3EB-91129F17CA27</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="founded_in" id="12B64767-E111-651F-26D4-917CDE8920AC">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>2B3DBF2B-A387-9138-79F6-5A4A7E7042E7</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="9220D555-C014-290F-0D13-669932EE88A0">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>DE75A4E2-24BE-CFA4-221F-2FE0E846989E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacity" id="0F3DCE94-BF01-9CA3-9791-4D594E25C755">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>7094920E-8A56-8329-8496-842E39BD8EA0</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="598F2482-5A3D-5C86-4518-8BAFC024EC44" name="stadiums_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>CF682070-CFBD-78C9-45C5-98279428DE45</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A595CB0-F8C1-CF99-E054-9F2A52F2C372"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B844C16F-2C50-3F56-B722-EB7E1AB5DFBD" name="scouts">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:06:07 UTC</createdTime>
+<generatorID>25B0B32A-1F73-EA0E-CE4D-4DA6989DBF54</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="5C24D0F9-C55C-B3BA-A49E-419B3E01D751">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:06:07 UTC</createdTime>
+<generatorID>28BD8B87-6276-B6EB-75EE-CB518BB0AE7F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D6A6DF5-2B39-CA3A-151D-E98B3263BAC2" referredColumn="0903E12B-4059-85F2-9A29-AC38EDF76F48"/>
+</associations>
+</Column>
+<Column name="type" id="EE83456F-30DD-48AF-1658-074FBC1EB13A">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:06:07 UTC</createdTime>
+<generatorID>B37DC2A9-6E4B-977F-D23B-24EDDEB3E5FD</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="76B15908-66E9-9DCA-3227-52F99AACF2FD">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:06:07 UTC</createdTime>
+<generatorID>F1C838EB-B2AD-0265-8E04-A5E9A4F6BE09</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="teams_team_id" id="D2934A7B-B0F4-9762-9BBA-A32EDB804F90">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:18:34 UTC</createdTime>
+<generatorID>0B309043-95A6-808C-CC73-B44EC6F5C0EC</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05B738CC-42AF-5D19-B0D8-E888716B2182" referredColumn="6283279E-4740-267C-11E3-B18AFE9ADB61"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="488C7F93-F3F3-8A0F-0BD6-5BAA7A1B0ADC" name="scouts_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:06:07 UTC</createdTime>
+<generatorID>769EA94B-104D-85EB-56B3-CF214B885F22</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C24D0F9-C55C-B3BA-A49E-419B3E01D751"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAF38E38-45C9-1F63-4753-FF3F2422A74A" name="scouts_employees_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:06:07 UTC</createdTime>
+<generatorID>2142FBDE-F060-534F-E191-2D21674E2393</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C24D0F9-C55C-B3BA-A49E-419B3E01D751"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22A3EE39-B630-9537-2B88-160F7E258F83" name="scouts_teams_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:18:34 UTC</createdTime>
+<generatorID>4FEBAEDD-74C6-2EBC-ECB0-CCAE80BA4166</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2934A7B-B0F4-9762-9BBA-A32EDB804F90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

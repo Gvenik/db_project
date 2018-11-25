@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE7A4F15-FD8F-FBB0-C856-823F7464BCA1" containerWithKeyObject="BFDA3611-477A-12D5-53DB-800EF83873E6" localFKIndex="68AE5208-8EE2-2A1F-36D3-488618B9AF6D" name="calendar_teams_FKv1">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:59:06 UTC</createdTime>
+<generatorID>C787A229-B277-5DF1-08FA-210FA9769285</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<referredTableLongName>teams</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E4AF61E-9C06-F1D4-61FA-4308631AA8D5</referredTableID>
+<keyObject>52E4D9BB-755C-4553-E220-635C25E3B37E</keyObject>
+<referredKeyID>52E4D9BB-755C-4553-E220-635C25E3B37E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>team_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

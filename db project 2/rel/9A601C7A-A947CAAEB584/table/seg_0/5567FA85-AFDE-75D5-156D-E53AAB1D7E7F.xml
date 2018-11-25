@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5567FA85-AFDE-75D5-156D-E53AAB1D7E7F" name="employees">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 11:58:32 UTC</createdTime>
+<generatorID>1581F213-3C02-C4BE-94D8-75BB7858822C</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="0903E12B-4059-85F2-9A29-AC38EDF76F48">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 11:58:32 UTC</createdTime>
+<generatorID>28BD8B87-6276-B6EB-75EE-CB518BB0AE7F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="FE680340-0527-463E-79CF-554721689479">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 11:58:32 UTC</createdTime>
+<generatorID>FE972CD2-AA57-89D2-1E78-B4589B489683</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="6C9F0245-264D-E8F7-E2BC-BD3715D5463C">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 11:58:32 UTC</createdTime>
+<generatorID>2F0E621C-AEE3-2A49-71B0-F076B8E970C7</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="f_name" id="A30835DE-393F-CDC3-3CE2-7E7929CB96E8">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 11:58:32 UTC</createdTime>
+<generatorID>A7C6CBAD-22F9-3105-6D9C-F4A9A4EC7693</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="l_name" id="98C8598F-E309-95A0-C59B-0691E72C6842">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 11:58:32 UTC</createdTime>
+<generatorID>4B2880C3-2CCD-19A2-8519-617EF759F78C</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="598D2D1B-7E94-D6D8-223F-102B7973E460">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 11:58:32 UTC</createdTime>
+<generatorID>F5BC2DB5-434D-53C1-85C8-157A6F14CD69</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nationality" id="D900AD64-4A2B-28B5-D2D5-73C655018ECA">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 11:58:32 UTC</createdTime>
+<generatorID>3517E1E8-18F9-8E22-62C6-60EDAC99D78D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBD25C6E-DAA6-37E8-46BC-05643D2E6DDC" name="employees_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 11:58:32 UTC</createdTime>
+<generatorID>769EA94B-104D-85EB-56B3-CF214B885F22</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0903E12B-4059-85F2-9A29-AC38EDF76F48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C2AD7CE-888C-4E37-C7B7-692BA425350F" name="matches">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:44:53 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="match_id" id="90BC5B27-4479-C07E-B49F-0C57854B8313">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:45:00 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="6115753E-9776-684A-4272-D364DAFADA8F">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:45:30 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minutes_played" id="235FAE4C-8A74-1ED6-AF6A-9AE735C8B7DA">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:45:40 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weather" id="44F2055D-F3ED-289E-7873-1188021E36F5">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:46:11 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calendar_id" id="A5D9EE9D-B984-FEF1-5026-FD612C862337">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:00:00 UTC</createdTime>
+<generatorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3181E379-70C0-2F05-1E57-D080E635BDFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referees_id" id="F95C78BB-CA1B-6047-0C61-478EEF7E762E">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:04:24 UTC</createdTime>
+<generatorID>482C392A-E923-2EED-8D6C-CC16D16397C3</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D7BCE0CB-D750-5660-6EBB-A5995EBEF756</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stadium_id" id="6DECF64B-DF72-64C0-1704-90E9D5A8707D">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:08:26 UTC</createdTime>
+<generatorID>A99D51DF-EA2D-A66D-C327-22690DCF96E4</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<referedAttribute>420A517E-E5B7-B9A1-C3EB-91129F17CA27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="leagues_id" id="1971901C-E158-D93B-1FB2-C3217FCFCF08">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:18:16 UTC</createdTime>
+<generatorID>715469D6-A5DA-73E4-971E-58E98F1AF303</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4EB12061-7FC4-1218-7F06-3538B209DEF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="commentator_id" id="A7F580B9-2952-5E0F-60C2-C6282BE84BF7">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:20:24 UTC</createdTime>
+<generatorID>D4C5169B-A8D6-12C1-21AB-A155924CE12C</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5B6562A5-4963-1679-4BAC-AEB1757D1692</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01D55665-3109-7E63-8614-0373E584FE1E" name="matches PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:45:05 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90BC5B27-4479-C07E-B49F-0C57854B8313</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

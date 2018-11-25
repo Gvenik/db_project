@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78CCF259-83A1-EC9E-30ED-7B6079CDF110" name="teams_tactics">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:32:11 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tactics_tactics_id" id="384EB427-A1FA-9E3A-0562-25B0D2CE8833">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:32:11 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA8F69A9-52CC-7024-3B26-1560B981F159" referredColumn="7BBB6016-CAE1-D542-530B-0FA0DD995757"/>
+</associations>
+</Column>
+<Column name="teams_team_id" id="A6CBB869-DD43-481A-7DD4-06771FBF5925">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:32:11 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0C4392F-54A5-99F6-A998-9F51A32888FC" referredColumn="6283279E-4740-267C-11E3-B18AFE9ADB61"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26FDC863-4458-F16F-0C73-B44FB98A80BD" name="teams_tactics_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:32:11 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="384EB427-A1FA-9E3A-0562-25B0D2CE8833"/>
+<colUsage columnID="A6CBB869-DD43-481A-7DD4-06771FBF5925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8A656A2-C181-45BB-14B1-4538071B97A2" name="teams_tactics_tactics_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:32:11 UTC</createdTime>
+<generatorID>AFD051DC-9747-3E2B-1ACC-C57A3F95376D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="384EB427-A1FA-9E3A-0562-25B0D2CE8833"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2C752A1-3CBD-9EC7-D560-213EA511CF21" name="teams_tactics_teams_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:32:11 UTC</createdTime>
+<generatorID>AFD051DC-9747-3E2B-1ACC-C57A3F95376D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6CBB869-DD43-481A-7DD4-06771FBF5925"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

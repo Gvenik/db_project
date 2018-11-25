@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07AF5218-FF43-8910-4F40-0C2BB7BCA9E5" name="positions">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:09:33 UTC</createdTime>
+<generatorID>56F1456D-7E4F-5C7A-4B03-3D86F2BF9C01</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="position_id" id="57F6E06D-4895-6D77-8FE8-9BF2CB6D64C3">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:09:33 UTC</createdTime>
+<generatorID>F831B2E1-ED56-4DE2-0566-30A2460DB7C8</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parent_type" id="974BE55B-8F67-804A-9D6B-A385A352C25F">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:09:33 UTC</createdTime>
+<generatorID>BE117D49-A5AB-69A1-AE43-26B12C2FD289</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sub_type" id="9E9BAA18-37D6-5DC8-58ED-AE87436C0238">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:09:33 UTC</createdTime>
+<generatorID>C31C9845-514E-3D7C-51CB-1FA1076602BF</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="163A37A4-7457-CCDA-F15F-9124C2F9DD36" name="positions_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:09:33 UTC</createdTime>
+<generatorID>43B30D04-833C-BD39-2E76-396D073AABB1</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57F6E06D-4895-6D77-8FE8-9BF2CB6D64C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

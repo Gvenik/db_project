@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E207C0A7-A537-66BB-8D38-1A9F51BB6211" name="teams_matches">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="teams_team_id" id="357C836A-FCE8-2AB2-3210-7DDA1EB8D977">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7100D85-FD78-9938-59A9-91CF6CF813B1" referredColumn="6283279E-4740-267C-11E3-B18AFE9ADB61"/>
+</associations>
+</Column>
+<Column name="matches_match_id" id="1D846710-79C3-6F5D-87D1-5574BD373D8F">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25549A31-34A8-0BD6-F770-3871C3698477" referredColumn="CE2FAD90-30EA-F20E-2881-CA94BDBE4B25"/>
+</associations>
+</Column>
+<Column name="posession" id="30C0CA2D-AF33-A0A0-7D57-0F77BB9C4050">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>ABC3A4E5-F3A2-6F2C-72BB-BD3870F42C82</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="total_passes" id="BDD9D83E-C1D4-7759-BD33-06F90C4F65B7">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>CDFC49BA-E319-ECE1-8D22-0E31BA895159</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="corners" id="6E1DC2D6-D396-D0F3-5336-34380024A08C">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>8F67E851-F48F-34C7-FAC0-3A88CE4DEC70</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="xA" id="DAD5164D-75CC-D1F5-862E-E93E7BE540D7">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>596FAB1C-D396-24F8-17F5-8E3FD8F76670</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="xG" id="4545AA54-D378-F48B-493B-5FA130A8B1AD">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>64EB2669-F734-CE52-4291-D8C5054BFC64</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BDCBBAA-16F5-B9FF-68FF-EEC90643F4D6" name="teams_matches_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="357C836A-FCE8-2AB2-3210-7DDA1EB8D977"/>
+<colUsage columnID="1D846710-79C3-6F5D-87D1-5574BD373D8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13D2E697-A638-A501-4C76-AE3695CE4EED" name="teams_matches_teams_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>CAB76CFC-6418-E7F7-89F5-46507BA7A04D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="357C836A-FCE8-2AB2-3210-7DDA1EB8D977"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93620679-C388-FF18-AD7E-2BFDBB26280B" name="teams_matches_matches_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:48:48 UTC</createdTime>
+<generatorID>CAB76CFC-6418-E7F7-89F5-46507BA7A04D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D846710-79C3-6F5D-87D1-5574BD373D8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

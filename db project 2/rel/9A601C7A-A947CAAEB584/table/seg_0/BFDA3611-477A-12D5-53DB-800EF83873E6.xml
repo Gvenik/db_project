@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFDA3611-477A-12D5-53DB-800EF83873E6" name="calendar">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:59:06 UTC</createdTime>
+<generatorID>8A13655C-8CE0-DF66-EB74-B2E0623C935C</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="calendar_id" id="7F18AD29-7A7E-1131-6116-FE9CB48496AC">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:59:06 UTC</createdTime>
+<generatorID>3181E379-70C0-2F05-1E57-D080E635BDFF</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="78D67E7A-C697-CBE9-EF53-2ADF6D4D4F52">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:59:06 UTC</createdTime>
+<generatorID>69EB5C53-150C-4391-639B-EF1E2738A473</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="teams_team_id" id="D20ECDD2-53E8-7C6E-7EA1-CF6373835167">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:59:06 UTC</createdTime>
+<generatorID>B1A18562-834B-3486-903E-0F8A3F909ACB</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACEA7D73-8A71-9DE9-990A-1ACB2F19B8DD" referredColumn="6283279E-4740-267C-11E3-B18AFE9ADB61"/>
+</associations>
+</Column>
+<Column name="teams_team_id2" id="2A1178FC-E6C0-2418-4797-32FF4CE314CB">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:59:06 UTC</createdTime>
+<generatorID>E58D8295-D8A0-EF58-F981-FC4A4EB3AE14</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE7A4F15-FD8F-FBB0-C856-823F7464BCA1" referredColumn="6283279E-4740-267C-11E3-B18AFE9ADB61"/>
+</associations>
+</Column>
+<Column name="matches_match_id" id="FB522C48-B324-4E2E-E2A2-93BF4A975EBD">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>545A0F57-0B54-6F43-BD48-C7A28B110EF2</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="839C595D-79EC-8738-120D-DF32E34674B8" referredColumn="CE2FAD90-30EA-F20E-2881-CA94BDBE4B25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E11BD12E-337D-BE8C-72BE-95C389142933" name="calendar_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:59:06 UTC</createdTime>
+<generatorID>E5D6748F-235F-534C-7CEF-4F8F660C6395</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F18AD29-7A7E-1131-6116-FE9CB48496AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC7BC3EF-4EA9-7018-EFBB-73279869A416" name="calendar__IDX">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FB522C48-B324-4E2E-E2A2-93BF4A975EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C66F6B69-EF22-EEB4-2E2D-142AA88F3367" name="calendar_teams_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:59:06 UTC</createdTime>
+<generatorID>E17E5296-9537-003E-E0AE-714C47FE156E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D20ECDD2-53E8-7C6E-7EA1-CF6373835167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68AE5208-8EE2-2A1F-36D3-488618B9AF6D" name="calendar_teams_FKv1">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:59:06 UTC</createdTime>
+<generatorID>C787A229-B277-5DF1-08FA-210FA9769285</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A1178FC-E6C0-2418-4797-32FF4CE314CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55E9A181-9B3C-D1C4-DCEA-682CC6383D31" name="calendar_matches_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<generatorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB522C48-B324-4E2E-E2A2-93BF4A975EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
