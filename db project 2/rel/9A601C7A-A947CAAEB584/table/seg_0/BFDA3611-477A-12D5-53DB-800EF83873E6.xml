@@ -48,7 +48,7 @@
 <colAssociation fkAssociation="ACEA7D73-8A71-9DE9-990A-1ACB2F19B8DD" referredColumn="6283279E-4740-267C-11E3-B18AFE9ADB61"/>
 </associations>
 </Column>
-<Column name="teams_team_id2" id="2A1178FC-E6C0-2418-4797-32FF4CE314CB">
+<Column name="teams_team_id1" id="2A1178FC-E6C0-2418-4797-32FF4CE314CB">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 13:59:06 UTC</createdTime>
 <generatorID>E58D8295-D8A0-EF58-F981-FC4A4EB3AE14</generatorID>
@@ -89,7 +89,7 @@
 <colUsage columnID="D20ECDD2-53E8-7C6E-7EA1-CF6373835167"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="68AE5208-8EE2-2A1F-36D3-488618B9AF6D" name="calendar_teams_FKv1">
+<ind_PK_UK id="68AE5208-8EE2-2A1F-36D3-488618B9AF6D" name="calendar_teams_FKv2">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 13:59:06 UTC</createdTime>
 <generatorID>C787A229-B277-5DF1-08FA-210FA9769285</generatorID>

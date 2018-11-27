@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="52289615-FCE1-0FBA-BB2A-C1E1C4176AB2" containerWithKeyObject="DB10332D-3692-6046-C0C6-1604E63E74FC" localFKIndex="64579091-4589-66A2-C935-554D95E633C1" name="players_matches_goals_matches_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="186CFDA9-1AFD-9036-5711-A6329199FDE6" containerWithKeyObject="CF78C548-079E-271E-AC76-52418197F6EB" localFKIndex="8DFD7DB0-FEAB-E2A3-6E4D-BBF4181940B8" name="players_matches_goals_matches_FK">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<createdTime>2018-11-27 17:56:57 UTC</createdTime>
 <generatorID>0A602EE0-C1A1-363D-A9D1-D67B7680505F</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <referredTableLongName>matches</referredTableLongName>

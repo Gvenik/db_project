@@ -1,18 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="scored_by" directorySegmentName="seg_0" id="14BDF126-29EF-3CB2-47BC-D14F9FC32486">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="assisted_by" directorySegmentName="seg_0" id="0271AC62-F6DD-42E2-5DA0-9FA60B23E762">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-27 16:43:10 UTC</createdTime>
+<createdTime>2018-11-27 17:53:55 UTC</createdTime>
 <ownerDesignName>db project 2</ownerDesignName>
 <engineerTo>
 <item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
 </engineerTo>
 <sourcePk>769EA94B-104D-85EB-56B3-CF214B885F22</sourcePk>
+<dominantRole>B37706D3-7241-A8D1-788B-C14EAAD82A0B</dominantRole>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>B37706D3-7241-A8D1-788B-C14EAAD82A0B</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>37C1A765-13D4-66B9-9F23-3E9A2EA568BE</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

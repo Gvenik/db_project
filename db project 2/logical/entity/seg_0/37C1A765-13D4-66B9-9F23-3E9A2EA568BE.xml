@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="assisted_by" id="87610B69-0B0D-0170-0A45-CBBA8AB0E61E">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:25:03 UTC</createdTime>
-<ownerDesignName>db project 2</ownerDesignName>
-<engineerTo>
-<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="employee_id" id="2CCAF908-C0BE-A856-0015-7E4A5F64F84B">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-27 16:43:10 UTC</createdTime>
@@ -68,6 +54,22 @@
 <item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
 </engineerTo>
 <referedAttribute>D96138DA-CA5D-E5D3-CD25-899DC15BEF46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id1" id="DF3AC926-487A-15E4-D4EF-2647656DC251">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:53:55 UTC</createdTime>
+<generatorID>0271AC62-F6DD-42E2-5DA0-9FA60B23E762</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>28BD8B87-6276-B6EB-75EE-CB518BB0AE7F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
