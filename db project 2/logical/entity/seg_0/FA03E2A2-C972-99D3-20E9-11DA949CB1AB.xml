@@ -97,22 +97,6 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="employee_id" id="1673D9A8-DA0B-52C3-DEF5-FCE39E0E2909">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:19:27 UTC</createdTime>
-<generatorID>04A6BDB6-4DF2-C676-89EC-1A9E807E8EE5</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<engineerTo>
-<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>28BD8B87-6276-B6EB-75EE-CB518BB0AE7F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="academy_id" id="AD0FC0CE-A1F5-9040-0269-AC2F8133072B">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 13:28:01 UTC</createdTime>
@@ -139,6 +123,22 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>4EB12061-7FC4-1218-7F06-3538B209DEF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="6C51938B-F92C-9C6C-AE46-A128A3A8204F">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:03:22 UTC</createdTime>
+<generatorID>04A6BDB6-4DF2-C676-89EC-1A9E807E8EE5</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>28BD8B87-6276-B6EB-75EE-CB518BB0AE7F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

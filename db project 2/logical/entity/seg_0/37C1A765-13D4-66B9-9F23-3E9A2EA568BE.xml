@@ -29,5 +29,50 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="employee_id" id="2CCAF908-C0BE-A856-0015-7E4A5F64F84B">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:43:10 UTC</createdTime>
+<generatorID>14BDF126-29EF-3CB2-47BC-D14F9FC32486</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<referedAttribute>28BD8B87-6276-B6EB-75EE-CB518BB0AE7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="match_id" id="6A85F40A-05FB-9EA5-9999-68E18330540E">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:47:51 UTC</createdTime>
+<generatorID>0A602EE0-C1A1-363D-A9D1-D67B7680505F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<referedAttribute>90BC5B27-4479-C07E-B49F-0C57854B8313</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="goal_id" id="255BD68F-D920-D688-63B7-76ED4312C3A3">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:46:57 UTC</createdTime>
+<generatorID>19F27700-B2CD-E069-D48A-785F154B669B</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<referedAttribute>D96138DA-CA5D-E5D3-CD25-899DC15BEF46</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

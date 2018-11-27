@@ -82,30 +82,15 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="match_id" id="22E8D307-F923-D230-5F3D-3AA369FF4311">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:04:19 UTC</createdTime>
-<generatorID>482C392A-E923-2EED-8D6C-CC16D16397C3</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<engineerTo>
-<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>90BC5B27-4479-C07E-B49F-0C57854B8313</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="ED39201D-3024-C7A6-16E9-32CCE99660DB" name="referees PK">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 14:03:08 UTC</createdTime>
 <ownerDesignName>db project 2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

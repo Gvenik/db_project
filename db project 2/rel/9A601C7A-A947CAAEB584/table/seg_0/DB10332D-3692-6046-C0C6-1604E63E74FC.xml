@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB10332D-3692-6046-C0C6-1604E63E74FC" name="players_matches_goals">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<generatorID>37C1A765-13D4-66B9-9F23-3E9A2EA568BE</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="assisted_by" id="4748C81F-FB6F-827D-C69A-F88D2447D51E">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<generatorID>87610B69-0B0D-0170-0A45-CBBA8AB0E61E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="players_employee_id" id="DCE71031-B0B9-24EA-1D9A-5D9C6759552A">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<generatorID>2CCAF908-C0BE-A856-0015-7E4A5F64F84B</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACB43D54-CA26-9FFC-BAF1-60607D3564FD" referredColumn="013A1478-B491-05C2-F99F-D4432C1668E3"/>
+</associations>
+</Column>
+<Column name="matches_match_id" id="C913B846-D1F2-988E-CEEB-2F6EC61C539E">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<generatorID>6A85F40A-05FB-9EA5-9999-68E18330540E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52289615-FCE1-0FBA-BB2A-C1E1C4176AB2" referredColumn="CE2FAD90-30EA-F20E-2881-CA94BDBE4B25"/>
+</associations>
+</Column>
+<Column name="goals_goal_id" id="F422CA05-40CC-0B46-4746-CADB4CB56B28">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<generatorID>255BD68F-D920-D688-63B7-76ED4312C3A3</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C9FF4E8-290A-51B9-414E-326D66FFF97E" referredColumn="5A9A956F-D3A5-79B5-FF29-05CF621B804A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="729F0077-7342-05BC-F254-4BBDC321B712" name="players_matches_goals_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:48:21 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F422CA05-40CC-0B46-4746-CADB4CB56B28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE7C31BB-A4AF-3725-4B79-645848065C6A" name="players_matches_goals__IDX">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>19F27700-B2CD-E069-D48A-785F154B669B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F422CA05-40CC-0B46-4746-CADB4CB56B28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7B0A031-7B09-91F1-9A38-970BB0BC7B56" name="players_matches_goals_players_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<generatorID>14BDF126-29EF-3CB2-47BC-D14F9FC32486</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCE71031-B0B9-24EA-1D9A-5D9C6759552A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64579091-4589-66A2-C935-554D95E633C1" name="players_matches_goals_matches_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<generatorID>0A602EE0-C1A1-363D-A9D1-D67B7680505F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C913B846-D1F2-988E-CEEB-2F6EC61C539E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBFB5C28-50E9-9CD9-4BD7-314254DE50DF" name="players_matches_goals_goals_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:47:10 UTC</createdTime>
+<generatorID>19F27700-B2CD-E069-D48A-785F154B669B</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F422CA05-40CC-0B46-4746-CADB4CB56B28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

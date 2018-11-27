@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="042212D0-3FF3-D1BF-5DDA-CFD77BDF95D0" containerWithKeyObject="5E4AF61E-9C06-F1D4-61FA-4308631AA8D5" localFKIndex="29B94EC8-AB28-8DB1-FD9D-51DDEF2A363E" name="teams_presidents_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50339DB7-48C5-9BC5-F1C6-6909A0546A01" containerWithKeyObject="5E4AF61E-9C06-F1D4-61FA-4308631AA8D5" localFKIndex="748CE2E4-783F-F464-B32D-7A886AF724C5" name="teams_presidents_FK">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:24:15 UTC</createdTime>
+<createdTime>2018-11-27 17:03:25 UTC</createdTime>
 <generatorID>04A6BDB6-4DF2-C676-89EC-1A9E807E8EE5</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <referredTableLongName>presidents</referredTableLongName>

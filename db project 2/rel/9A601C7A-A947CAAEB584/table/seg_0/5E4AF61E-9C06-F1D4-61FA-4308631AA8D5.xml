@@ -84,23 +84,6 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="presidents_employee_id" id="0DDC60CA-41FD-46DD-80F5-71CFDB7F7263">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:24:15 UTC</createdTime>
-<generatorID>1673D9A8-DA0B-52C3-DEF5-FCE39E0E2909</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="042212D0-3FF3-D1BF-5DDA-CFD77BDF95D0" referredColumn="CF355DFE-6BC0-3316-6727-86CA019F49FA"/>
-</associations>
-</Column>
 <Column name="academies_academy_id" id="31CF0B0C-EA81-B6D8-4FC4-CEE1627D289F">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 13:28:07 UTC</createdTime>
@@ -111,11 +94,45 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F72B3F89-4564-00C5-4102-669DE1CA9302" referredColumn="EF317E23-2A10-A0ED-74AC-306AEA35C29F"/>
+</associations>
+</Column>
+<Column name="leagues_leagues_id" id="21DC7CDF-4AAB-2FD3-AC45-A9E6815F175D">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>2F2DE287-D76C-BD9A-9747-0E2BC866C3CF</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B6E5602A-5282-8D36-35A7-64BF34EFA12F" referredColumn="EF317E23-2A10-A0ED-74AC-306AEA35C29F"/>
+<colAssociation fkAssociation="B1472B36-0D9E-56F5-5D6E-1B33A89160D1" referredColumn="A2CAE487-C3B4-94AE-39D8-1F325736F6C1"/>
+</associations>
+</Column>
+<Column name="presidents_employee_id" id="6D35EB11-8895-E08F-5DD4-D502BC2EE682">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:03:25 UTC</createdTime>
+<generatorID>6C51938B-F92C-9C6C-AE46-A128A3A8204F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50339DB7-48C5-9BC5-F1C6-6909A0546A01" referredColumn="CF355DFE-6BC0-3316-6727-86CA019F49FA"/>
 </associations>
 </Column>
 </columns>
@@ -132,17 +149,6 @@
 <colUsage columnID="6283279E-4740-267C-11E3-B18AFE9ADB61"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A34A8BC0-9A05-60D7-9EBF-581B95932396" name="teams__IDX">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:24:16 UTC</createdTime>
-<ownerDesignName>db project 2</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>04A6BDB6-4DF2-C676-89EC-1A9E807E8EE5</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="0DDC60CA-41FD-46DD-80F5-71CFDB7F7263"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="0A5F4E92-F402-2735-6F08-E89328E5883C" name="teams__IDXv1">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 13:28:07 UTC</createdTime>
@@ -154,20 +160,42 @@
 <colUsage columnID="31CF0B0C-EA81-B6D8-4FC4-CEE1627D289F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="29B94EC8-AB28-8DB1-FD9D-51DDEF2A363E" name="teams_presidents_FK">
+<ind_PK_UK id="B2ACE141-3E4D-CCE3-9D2D-A1572E9F584F" name="teams__IDX">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:24:15 UTC</createdTime>
+<createdTime>2018-11-27 17:03:25 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>04A6BDB6-4DF2-C676-89EC-1A9E807E8EE5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6D35EB11-8895-E08F-5DD4-D502BC2EE682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95C7FEF9-721F-21C3-3EFB-993F9BD82760" name="teams_leagues_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>2DD54C6C-0299-3458-0F2B-AFA57C85E9F3</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21DC7CDF-4AAB-2FD3-AC45-A9E6815F175D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="748CE2E4-783F-F464-B32D-7A886AF724C5" name="teams_presidents_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:03:25 UTC</createdTime>
 <generatorID>04A6BDB6-4DF2-C676-89EC-1A9E807E8EE5</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0DDC60CA-41FD-46DD-80F5-71CFDB7F7263"/>
+<colUsage columnID="6D35EB11-8895-E08F-5DD4-D502BC2EE682"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="14A12BFE-4710-7162-6D95-CB3E95EA96E1" name="teams_academies_FK">
+<ind_PK_UK id="98B602A0-E45D-FE4A-F487-B4006DD5EEEF" name="teams_academies_FK">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:09:00 UTC</createdTime>
+<createdTime>2018-11-27 17:03:25 UTC</createdTime>
 <generatorID>2A20AB44-D429-8573-09FE-4B128DC4D8F5</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <indexState>Foreign Key</indexState>

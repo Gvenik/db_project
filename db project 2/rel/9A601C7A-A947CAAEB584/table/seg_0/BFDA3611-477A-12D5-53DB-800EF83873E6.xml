@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -57,28 +57,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="AE7A4F15-FD8F-FBB0-C856-823F7464BCA1" referredColumn="6283279E-4740-267C-11E3-B18AFE9ADB61"/>
-</associations>
-</Column>
-<Column name="matches_match_id" id="FB522C48-B324-4E2E-E2A2-93BF4A975EBD">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:09:00 UTC</createdTime>
-<generatorID>545A0F57-0B54-6F43-BD48-C7A28B110EF2</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="839C595D-79EC-8738-120D-DF32E34674B8" referredColumn="CE2FAD90-30EA-F20E-2881-CA94BDBE4B25"/>
 </associations>
 </Column>
 </columns>
@@ -93,17 +76,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7F18AD29-7A7E-1131-6116-FE9CB48496AC"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="AC7BC3EF-4EA9-7018-EFBB-73279869A416" name="calendar__IDX">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:09:00 UTC</createdTime>
-<ownerDesignName>db project 2</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="FB522C48-B324-4E2E-E2A2-93BF4A975EBD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="C66F6B69-EF22-EEB4-2E2D-142AA88F3367" name="calendar_teams_FK">
@@ -126,17 +98,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2A1178FC-E6C0-2418-4797-32FF4CE314CB"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="55E9A181-9B3C-D1C4-DCEA-682CC6383D31" name="calendar_matches_FK">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:09:00 UTC</createdTime>
-<generatorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="FB522C48-B324-4E2E-E2A2-93BF4A975EBD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A64052E-D520-C091-2943-E25BE0157328" name="tickets">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>EAEF72C6-B583-8931-9D2C-9C7B4EE58D58</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tickets_id" id="F6DAF3C2-33DB-2741-3403-245C1F16E685">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>355E009B-B022-44B3-71EE-776F78FDF81D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="row" id="C3C28BD0-30B6-2042-EAD7-3A279F728763">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>0BC52ABE-4B3F-1D0D-389C-56535AB0F791</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seat" id="F041DD63-82D7-D425-26DC-F3A304CE0222">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>C800C00D-6CFF-B1A1-0C12-55820BA4238D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sector" id="E3FEE3C0-F3A9-3E1D-9F42-838B227E69BE">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>98F5DF1D-5D97-5DD8-742B-65A15E002839</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="CD31CD58-843D-1A11-D15A-83162E312A31">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>761C949E-16A8-7E1F-152C-C155123C293E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="B022F2F9-9C2F-B1DD-0B0B-5EA40C855473">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>F9C0823C-ABD1-9506-AB13-5FC401F75908</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matches_match_id" id="050BBEE7-1BFB-D8A1-F830-559A54BC2E74">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>9E466262-2A04-372F-6DCC-3BC5B8C58A50</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C7A7E18-C7B6-4F3A-F450-BC2192FE0FFD" referredColumn="CE2FAD90-30EA-F20E-2881-CA94BDBE4B25"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="724828AF-BF8C-0BDA-9271-D5E43E90662D" name="tickets_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>09E006BE-C1EA-F80B-A5C3-A5F21A0CED93</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6DAF3C2-33DB-2741-3403-245C1F16E685"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C79644DE-A044-6786-A93F-EDBEA6B0F218" name="tickets_matches_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>B4AF6CD0-0C6E-DBA8-E87E-2CBF8FA61E3E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="050BBEE7-1BFB-D8A1-F830-559A54BC2E74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

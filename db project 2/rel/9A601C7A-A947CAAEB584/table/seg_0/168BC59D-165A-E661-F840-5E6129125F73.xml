@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="168BC59D-165A-E661-F840-5E6129125F73" name="commentators">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:04 UTC</createdTime>
+<generatorID>B0775516-3ADF-0E10-F6C9-F99C36CD6A0E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="commentator_id" id="26444E2A-BF6D-4781-C2A9-AB9B5288A555">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:04 UTC</createdTime>
+<generatorID>5B6562A5-4963-1679-4BAC-AEB1757D1692</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="3FE885B5-910F-93C5-671A-C8FEAAF50B36">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>95FA86F7-AF1D-3909-2167-7257C71F505F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="language" id="C4BC6E4C-A81A-AC7B-2B42-988D34F55C5F">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>AD67A9B4-6F59-9ACF-8F6E-C2108C5DFC7F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="E01C1EF9-A1B9-ADE6-7E1E-527C4C65F3C8">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>9970DCB4-FFF3-3A33-2949-A282F7360310</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matches_match_id" id="86AD8BA5-0B12-589E-077E-CBC809DC0FB4">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>46C6B37A-37AB-3A4C-92C4-C26D90B7685C</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tvs_tv_id" id="1DF0920D-2FEA-6A51-B269-29BBEBC897AD">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>CC5D0897-B822-C8E6-FDC4-CFF910E71B4B</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B404E77-3345-A093-0D4B-608C4C6F5153" referredColumn="69FF7E65-7974-4B38-D759-28EAA11BF857"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="329B2F31-FFAE-820A-18C3-902C449535B3" name="commentators_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>6DE613CC-7A38-ED6E-8E7D-708BAB038873</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26444E2A-BF6D-4781-C2A9-AB9B5288A555"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5B3DCD7-FC9F-11DA-C2B1-1BE48643AF2B" name="commentators_tvs_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>AE746783-5CE7-D998-D7FC-D95ADE459B33</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DF0920D-2FEA-6A51-B269-29BBEBC897AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51E77AE9-1FD7-920B-6DAF-6AEE43F5F7E7" name="leagues">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>56675DCA-86A7-363B-C9C7-168965B8B860</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="leagues_id" id="A2CAE487-C3B4-94AE-39D8-1F325736F6C1">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>4EB12061-7FC4-1218-7F06-3538B209DEF5</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_champion" id="5F63DE1D-A5D7-FFE7-0F23-C119805E603E">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>739EE415-F590-9CB7-9E5F-466FA173F241</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="team_number" id="D0B5D8DC-418A-85AC-46D4-C350887ADB49">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>02306791-E407-E277-1635-792039361722</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="7FEAAEE3-EA9E-B1B1-46FF-3969F7E0C213">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>C417649B-8DE7-6105-92C6-3BA3249B34B6</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="website" id="BF79126F-B460-43D7-E364-2FDC8FC61AFD">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>DCC77F85-6A74-D0C4-F9E8-705DEBCABFA2</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="4ED8E4AB-FE97-6226-5DE8-4F9F677B276D">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>EF4D35CD-4C89-7FCF-5DB9-419DECD0FEFC</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ceo" id="D48EA6A8-2681-ECC3-EFBB-A67AE482401C">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>B49A13DD-FCEC-E7BA-2C1B-4E9EC214843A</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="founded" id="C7F0C5FA-295D-ED8C-2235-F88A7AB16858">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>8AD958C6-EAC6-AB8D-452B-5405BF14267D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5772F51-AD3C-A66C-1FC9-D8F9C5F75A85" name="leagues_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>2AFFCDA9-6CC9-5EFD-4F04-E72F677A2A20</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2CAE487-C3B4-94AE-39D8-1F325736F6C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

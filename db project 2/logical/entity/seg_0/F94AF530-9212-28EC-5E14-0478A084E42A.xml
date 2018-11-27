@@ -84,22 +84,6 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="team_id" id="F2A9B280-BA4B-5657-7ABF-69558B1BFC23">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:28:05 UTC</createdTime>
-<generatorID>2A20AB44-D429-8573-09FE-4B128DC4D8F5</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<engineerTo>
-<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>F3869B41-E85E-0434-87D5-D41FED3086A7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="144E0AC9-051F-BF5D-8E7F-D3EC56CB8794" name="academies PK">

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D66B366-ADBD-4247-0EBE-A3836998BAD2" containerWithKeyObject="7C8ACC57-A832-3EC6-4F79-2BCDA0B9F1E8" localFKIndex="4A2CA54C-49D0-CA5C-BDAD-091F4D555468" name="matches_referees_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE5A39D4-AC6C-5931-40F6-193DFCAA0899" containerWithKeyObject="7C8ACC57-A832-3EC6-4F79-2BCDA0B9F1E8" localFKIndex="61B83925-D91B-7A51-2144-94CE6217D6FA" name="matches_referees_FK">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:09:00 UTC</createdTime>
-<generatorID>482C392A-E923-2EED-8D6C-CC16D16397C3</generatorID>
+<createdTime>2018-11-27 17:38:24 UTC</createdTime>
+<generatorID>19C7D576-8775-E02E-B29B-283D2D587585</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <referredTableLongName>referees</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9D729CE-123E-15DD-FC28-D58518DEB4B3" name="academies">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D59B489-A2D5-4381-4DFF-D8D0C67ECCB2" name="tvs">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:28:07 UTC</createdTime>
-<generatorID>F94AF530-9212-28EC-5E14-0478A084E42A</generatorID>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>5E1A9221-28F4-9513-FB98-94C68CF89638</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="academy_id" id="EF317E23-2A10-A0ED-74AC-306AEA35C29F">
+<Column name="tv_id" id="69FF7E65-7974-4B38-D759-28EAA11BF857">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:28:07 UTC</createdTime>
-<generatorID>836E0D01-3BF0-B014-32A8-E69C56D3B50A</generatorID>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>4C9803B2-4647-A851-C917-B81B2E4AF296</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,10 +20,10 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="arena" id="7DB4FF34-F49D-60A8-C21F-7B4D33B7666E">
+<Column name="name" id="86A21785-8DFB-61F1-B4C8-82486C466208">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:28:07 UTC</createdTime>
-<generatorID>07AE97F0-E8FD-CE51-F71E-4678713B2914</generatorID>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>FC4D7765-4CEF-02E4-D7AB-83481D6DBB89</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,10 +33,23 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="chairman" id="0E133FD4-0147-C2D8-06F9-7F5866B53B2C">
+<Column name="audience" id="A5488488-025D-F43C-C307-A06214091727">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:28:07 UTC</createdTime>
-<generatorID>C46D300D-743D-F3E8-E03B-E9D8588EF680</generatorID>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>4E4D898B-55DF-8A52-6DFD-53C94F620C0D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="B0030E87-FFF1-A5DD-8BDE-333FEA03AABF">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>EFFC78B7-802C-8A76-C574-300D675D8CF6</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,44 +59,30 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="location" id="D23ABE6A-D4F3-9CF1-892E-D8C2B1FB44A8">
+<Column name="founded" id="733BE932-FA95-E600-F84E-3D2426F401DB">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:28:07 UTC</createdTime>
-<generatorID>0DAD2673-DBDF-DCFC-8AE1-79E84BF73948</generatorID>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>4FF809B6-32D6-C67C-616C-D654B88C3CE0</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="manager" id="280EB723-EF6B-F93A-CE2B-A6E934424401">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:28:07 UTC</createdTime>
-<generatorID>EFE068B1-7234-86B5-3AC7-32E97A326AB8</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="67EDA48E-A4BE-0FB1-6EB8-BDAD199A6659" name="academies_PK">
+<ind_PK_UK id="AE93AA88-09A8-DB39-8646-130B3527A92C" name="tvs_PK">
 <createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:28:07 UTC</createdTime>
-<generatorID>144E0AC9-051F-BF5D-8E7F-D3EC56CB8794</generatorID>
+<createdTime>2018-11-27 16:50:05 UTC</createdTime>
+<generatorID>205C0251-DAD6-ACAB-93A9-0CCF8563117A</generatorID>
 <ownerDesignName>db project 2</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="EF317E23-2A10-A0ED-74AC-306AEA35C29F"/>
+<colUsage columnID="69FF7E65-7974-4B38-D759-28EAA11BF857"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

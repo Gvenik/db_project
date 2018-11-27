@@ -84,23 +84,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="referees_id" id="F95C78BB-CA1B-6047-0C61-478EEF7E762E">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:04:24 UTC</createdTime>
-<generatorID>482C392A-E923-2EED-8D6C-CC16D16397C3</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<engineerTo>
-<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>D7BCE0CB-D750-5660-6EBB-A5995EBEF756</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="stadium_id" id="6DECF64B-DF72-64C0-1704-90E9D5A8707D">
 <createdBy>CustomUserWin01</createdBy>
@@ -115,7 +99,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="leagues_id" id="1971901C-E158-D93B-1FB2-C3217FCFCF08">
 <createdBy>CustomUserWin01</createdBy>
@@ -143,6 +127,22 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>5B6562A5-4963-1679-4BAC-AEB1757D1692</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referees_id" id="16C4BA4C-033E-CCC5-EC48-605C6D5D3ABB">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 17:38:19 UTC</createdTime>
+<generatorID>19C7D576-8775-E02E-B29B-283D2D587585</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D7BCE0CB-D750-5660-6EBB-A5995EBEF756</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

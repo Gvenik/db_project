@@ -70,23 +70,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="matches_match_id" id="8DFC00F0-26FB-AE25-F222-10744EEB39DF">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:09:00 UTC</createdTime>
-<generatorID>22E8D307-F923-D230-5F3D-3AA369FF4311</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7A35363E-D71C-69D9-3068-B0A04B6BFEC3" referredColumn="CE2FAD90-30EA-F20E-2881-CA94BDBE4B25"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AF724285-F5BB-101E-8D52-0FC22F05772F" name="referees_PK">
@@ -99,28 +82,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FD18AA04-F1C9-B954-94BF-55C6E4C24901"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="257DAA83-FA57-0744-F0DC-E8322F17D236" name="referees__IDX">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:09:00 UTC</createdTime>
-<ownerDesignName>db project 2</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>482C392A-E923-2EED-8D6C-CC16D16397C3</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="8DFC00F0-26FB-AE25-F222-10744EEB39DF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="904A9BF7-8ADD-5B47-FFCD-0724F3EA8DC3" name="referees_matches_FK">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:09:00 UTC</createdTime>
-<generatorID>482C392A-E923-2EED-8D6C-CC16D16397C3</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8DFC00F0-26FB-AE25-F222-10744EEB39DF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

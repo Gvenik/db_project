@@ -23,23 +23,6 @@
 <colAssociation fkAssociation="557FA0DE-D60A-137F-8F34-03A34B9DD625" referredColumn="0903E12B-4059-85F2-9A29-AC38EDF76F48"/>
 </associations>
 </Column>
-<Column name="teams_team_id" id="AB8CACEE-2687-1178-6D37-D06A08122D74">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:19:34 UTC</createdTime>
-<generatorID>FE737285-BFE4-A706-442B-2D6E89B18CBD</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="FF54F9DD-5257-2EBB-B625-BE526DDDEE3A" referredColumn="6283279E-4740-267C-11E3-B18AFE9ADB61"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1B19EAF6-CE7D-99E3-8EB3-761DDE3BBF21" name="presidents_PK">
@@ -54,17 +37,6 @@
 <colUsage columnID="CF355DFE-6BC0-3316-6727-86CA019F49FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="09668657-83A2-ACB6-41B7-08CA7DD76509" name="presidents__IDX">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 13:19:34 UTC</createdTime>
-<ownerDesignName>db project 2</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>04A6BDB6-4DF2-C676-89EC-1A9E807E8EE5</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="AB8CACEE-2687-1178-6D37-D06A08122D74"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="110F0518-7ADB-C729-142A-510C42BA94ED" name="presidents_employees_FK">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 12:06:07 UTC</createdTime>
@@ -74,17 +46,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CF355DFE-6BC0-3316-6727-86CA019F49FA"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C2549E0F-C4B5-13AC-E553-F12E4356089A" name="presidents_teams_FK">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 14:09:00 UTC</createdTime>
-<generatorID>04A6BDB6-4DF2-C676-89EC-1A9E807E8EE5</generatorID>
-<ownerDesignName>db project 2</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="AB8CACEE-2687-1178-6D37-D06A08122D74"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
