@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8A8E074-0F13-D023-57BD-B640DF483A32" name="academies">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>F94AF530-9212-28EC-5E14-0478A084E42A</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="academy_id" id="66C8F1B7-6EBA-6E89-C909-95451E418B8C">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>836E0D01-3BF0-B014-32A8-E69C56D3B50A</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="arena" id="E99BC342-BCCA-6CC9-AC1C-C66C4FE77771">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>07AE97F0-E8FD-CE51-F71E-4678713B2914</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chairman" id="B1A6023D-38E1-8675-4D93-A986EE68EC51">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>C46D300D-743D-F3E8-E03B-E9D8588EF680</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="404BF7B8-5619-E41C-03B3-4FCD2ED7AC2C">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>0DAD2673-DBDF-DCFC-8AE1-79E84BF73948</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="manager" id="4F154FF4-B6FD-A9C3-7606-402B8C2509C5">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>EFE068B1-7234-86B5-3AC7-32E97A326AB8</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66B461C3-3562-A17B-EB0B-8F3A8ABCCCFA" name="academies_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>144E0AC9-051F-BF5D-8E7F-D3EC56CB8794</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66C8F1B7-6EBA-6E89-C909-95451E418B8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

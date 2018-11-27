@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="ACBE2BCB-6D0D-7208-035F-8C993A501287" name="tvs">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>5E1A9221-28F4-9513-FB98-94C68CF89638</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tv_id" id="F411548E-7797-3CAF-6A3D-A9E7CF086B21">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>4C9803B2-4647-A851-C917-B81B2E4AF296</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B5626C7A-EC82-AA64-9E86-D5D55159D45B">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>FC4D7765-4CEF-02E4-D7AB-83481D6DBB89</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="audience" id="54BD613F-E4AB-F47E-6ECE-42449028C066">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>4E4D898B-55DF-8A52-6DFD-53C94F620C0D</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="F51B3EA8-7C2F-C89A-F044-6283853AD1E0">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>EFFC78B7-802C-8A76-C574-300D675D8CF6</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="founded" id="E5C9EC87-8287-5742-7B09-B5BCF3F86CA0">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>4FF809B6-32D6-C67C-616C-D654B88C3CE0</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BD9E6B9-3A21-C24F-AE0C-EC82E9492D24" name="tvs_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>205C0251-DAD6-ACAB-93A9-0CCF8563117A</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F411548E-7797-3CAF-6A3D-A9E7CF086B21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

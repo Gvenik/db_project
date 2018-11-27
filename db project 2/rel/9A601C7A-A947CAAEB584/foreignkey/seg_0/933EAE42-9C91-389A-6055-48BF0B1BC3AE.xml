@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="933EAE42-9C91-389A-6055-48BF0B1BC3AE" containerWithKeyObject="84561FA6-7076-3F2A-B983-8DC82C6A35D6" localFKIndex="A45CC816-01D9-54EC-906F-B4581C1E72D5" name="matches_fixture_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<referredTableLongName>fixture</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AA150AF-26EF-26E6-5A40-DFCD0C96B5AA</referredTableID>
+<keyObject>ED0DD578-56AD-0CDB-BBFB-1779D8F2001F</keyObject>
+<referredKeyID>ED0DD578-56AD-0CDB-BBFB-1779D8F2001F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>fixture_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

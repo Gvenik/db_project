@@ -70,7 +70,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="calendar_id" id="A5D9EE9D-B984-FEF1-5026-FD612C862337">
+<Attribute name="fixture_id" id="A5D9EE9D-B984-FEF1-5026-FD612C862337">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 14:00:00 UTC</createdTime>
 <generatorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</generatorID>

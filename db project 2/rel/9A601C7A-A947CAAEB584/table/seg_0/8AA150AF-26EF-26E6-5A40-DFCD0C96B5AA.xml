@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AA150AF-26EF-26E6-5A40-DFCD0C96B5AA" name="fixture">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>8A13655C-8CE0-DF66-EB74-B2E0623C935C</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fixture_id" id="A92DBFEE-FA26-45B0-7B89-EEE8FA7C7749">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>3181E379-70C0-2F05-1E57-D080E635BDFF</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="55B427F5-A56E-6504-88A0-1EBEFB7FAAA6">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>69EB5C53-150C-4391-639B-EF1E2738A473</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="teams_team_id" id="B4484DE3-DBF0-B85C-9626-5D328C8EB05C">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>B1A18562-834B-3486-903E-0F8A3F909ACB</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A01BC8D4-D3EB-D2A7-B315-239895AF4F43" referredColumn="6D1409FE-F14E-0D53-0E09-654BBA8ED129"/>
+</associations>
+</Column>
+<Column name="teams_team_id1" id="0F9D9A08-89AD-D1C1-C547-A8FC39FAF65A">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>E58D8295-D8A0-EF58-F981-FC4A4EB3AE14</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF301F23-B55F-51AE-4ACB-9A816ECBED94" referredColumn="6D1409FE-F14E-0D53-0E09-654BBA8ED129"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED0DD578-56AD-0CDB-BBFB-1779D8F2001F" name="fixture_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>E5D6748F-235F-534C-7CEF-4F8F660C6395</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A92DBFEE-FA26-45B0-7B89-EEE8FA7C7749"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F84F9423-EE80-8B4F-81F8-B48958840438" name="fixture_teams_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>E17E5296-9537-003E-E0AE-714C47FE156E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4484DE3-DBF0-B85C-9626-5D328C8EB05C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1B1FC92-1D3A-C4E8-BFB4-C8845B70CAD4" name="fixture_teams_FKv2">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>C787A229-B277-5DF1-08FA-210FA9769285</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F9D9A08-89AD-D1C1-C547-A8FC39FAF65A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

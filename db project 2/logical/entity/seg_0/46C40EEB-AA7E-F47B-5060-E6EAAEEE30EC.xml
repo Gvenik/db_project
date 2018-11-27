@@ -68,6 +68,36 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="team_id" id="8C279B0E-15F7-BF8F-7364-F3A5D4739C31">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:10:49 UTC</createdTime>
+<generatorID>72F96FF3-6E6A-0626-D105-3FBA4E25B7E2</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<referedAttribute>F3869B41-E85E-0434-87D5-D41FED3086A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="team_id1" id="2B0BB423-8AFF-7CD7-355A-8AAD151B86E2">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:11:04 UTC</createdTime>
+<generatorID>181C9E4A-59F7-DA71-169E-4565328D9A3E</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<referedAttribute>F3869B41-E85E-0434-87D5-D41FED3086A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

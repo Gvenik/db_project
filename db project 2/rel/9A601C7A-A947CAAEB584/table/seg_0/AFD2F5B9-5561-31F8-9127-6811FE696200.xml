@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFD2F5B9-5561-31F8-9127-6811FE696200" name="players_sponsors">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="players_employee_id" id="295F26F4-75B2-A2D2-3CD2-79A9EA00B871">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40F5E489-346A-2AA4-1817-B7962963CFD3" referredColumn="CC995915-D0A6-3635-BB23-32D4836FC576"/>
+</associations>
+</Column>
+<Column name="sponsors_sponsor_id" id="F8D3E546-78D2-6641-8BE4-019B5394AE31">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D3DC5C1-D33C-3FEC-E835-60727083A3C8" referredColumn="C6B23295-FB89-7AA7-BA5D-BD49D56ACD21"/>
+</associations>
+</Column>
+<Column name="end_date" id="55D250D2-AEC9-89AF-226B-3D11B8BF9DEC">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>C536A18F-B10D-5D4C-5836-A59C46753886</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="start_date" id="B8BD7262-FE1C-71AF-615E-D205DA0CAD3D">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>3D7FA27B-6BCC-9255-82E8-1D0F6419851F</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C68C3EA-C960-A6EE-5F40-DD8304A03E8A" name="players_sponsors_PK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="295F26F4-75B2-A2D2-3CD2-79A9EA00B871"/>
+<colUsage columnID="F8D3E546-78D2-6641-8BE4-019B5394AE31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC012646-3017-C8AB-24EF-604C1B240D21" name="players_sponsors_players_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>B5FE46CD-435F-F465-A13B-FC899ADE2443</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="295F26F4-75B2-A2D2-3CD2-79A9EA00B871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDEC2E64-595E-BE78-C028-6FCD7008572E" name="players_sponsors_sponsors_FK">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:25:49 UTC</createdTime>
+<generatorID>B5FE46CD-435F-F465-A13B-FC899ADE2443</generatorID>
+<ownerDesignName>db project 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8D3E546-78D2-6641-8BE4-019B5394AE31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

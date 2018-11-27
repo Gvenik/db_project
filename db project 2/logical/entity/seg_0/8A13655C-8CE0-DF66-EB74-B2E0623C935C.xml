@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A13655C-8CE0-DF66-EB74-B2E0623C935C" name="calendar">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A13655C-8CE0-DF66-EB74-B2E0623C935C" name="fixture">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 13:56:51 UTC</createdTime>
 <ownerDesignName>db project 2</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="calendar_id" id="3181E379-70C0-2F05-1E57-D080E635BDFF">
+<Attribute name="fixture_id" id="3181E379-70C0-2F05-1E57-D080E635BDFF">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 13:57:00 UTC</createdTime>
 <ownerDesignName>db project 2</ownerDesignName>
@@ -77,9 +77,8 @@
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 13:57:11 UTC</createdTime>
 <ownerDesignName>db project 2</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="false"/>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

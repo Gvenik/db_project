@@ -56,6 +56,19 @@
 <dataTypeSize>50 BYTE</dataTypeSize>
 <ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="expected_rec_date" id="0E0F4755-732F-9DB0-340E-89158CA44162">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:05:01 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="30ACE47C-8ACA-C14A-F538-0185725A1A73" name="injuries PK">

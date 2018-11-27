@@ -42,7 +42,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="language" id="AD67A9B4-6F59-9ACF-8F6E-C2108C5DFC7F">
+<Attribute name="spoken_language" id="AD67A9B4-6F59-9ACF-8F6E-C2108C5DFC7F">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 14:19:35 UTC</createdTime>
 <ownerDesignName>db project 2</ownerDesignName>

@@ -28,6 +28,34 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="full_name" id="3684D893-1A7D-06D7-7C9D-F8BEEDA6147D">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:19:24 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="business_sector" id="02236A99-F192-E533-603E-DCEFFF1CBFA4">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-27 18:19:53 UTC</createdTime>
+<ownerDesignName>db project 2</ownerDesignName>
+<engineerTo>
+<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A75926E3-23C7-A0EB-D4D6-B57040F1594E" name="sponsors PK">

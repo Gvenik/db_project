@@ -101,34 +101,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="instagram" id="74BA89AB-7B31-7461-C6E4-A13C7938C644">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 12:04:41 UTC</createdTime>
-<ownerDesignName>db project 2</ownerDesignName>
-<engineerTo>
-<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="facebook" id="AD01658F-DAB8-FD25-972B-E9CBED1FF912">
-<createdBy>CustomUserWin01</createdBy>
-<createdTime>2018-11-25 12:04:58 UTC</createdTime>
-<ownerDesignName>db project 2</ownerDesignName>
-<engineerTo>
-<item key="9A601C7A-74D3-E35C-F9AC-A947CAAEB584" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="agent_id" id="622F0F60-6176-8533-4154-78004AF93C0F">
 <createdBy>CustomUserWin01</createdBy>
 <createdTime>2018-11-25 12:11:39 UTC</createdTime>
