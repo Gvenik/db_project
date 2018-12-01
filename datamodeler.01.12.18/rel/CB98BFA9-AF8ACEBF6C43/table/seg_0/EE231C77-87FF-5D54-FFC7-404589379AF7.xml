@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE231C77-87FF-5D54-FFC7-404589379AF7" name="social_media">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>5C7D993B-31B2-9961-D931-E8C3E12BE827</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sm_id" id="CAA4B9AB-CB16-9025-A1BA-A19374130D7A">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>482C7E9F-BB2C-1C00-0F95-4FB46F0AF05C</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CE85BCD5-CC14-DA3E-9590-FC2338E93FBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="twitter" id="70409CEA-7B55-12CA-4ABF-77626EDFC56B">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>248B2EC0-BFF0-DBBE-C898-CA9AFE70D75A</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="facebook" id="49154275-D623-C44D-2DC2-D159804D75C6">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>C45415F1-1F80-FB23-F68E-D87DF3D556C1</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subscribers_count" id="DDCDA659-B2EB-DD45-7BF5-2AEB9193ED58">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>F9442775-C807-067B-027E-D16D04AE5EFD</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CE85BCD5-CC14-DA3E-9590-FC2338E93FBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instagram" id="79AC2AA5-C343-FDD0-C3A2-E1567072E798">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>3354C2F7-B299-5294-56E9-BC09B63F7B42</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="players_employee_id" id="F85D1E24-77CE-D4A4-6CA4-D391DEB0D4A7">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>68A564FD-D177-3ACC-9EAE-6817F7D49924</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B7BC765-3E9F-7D5D-BBED-0C842BEB8CD5" referredColumn="A878A00E-D4DC-B6EC-DF82-1CEF3597E5C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E76EAD6A-B919-1980-3428-DE82CF7BE623" name="social_media_PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>1CA4C73D-1176-0E97-3B1D-E0704731DE3C</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAA4B9AB-CB16-9025-A1BA-A19374130D7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB3F135D-E53C-D9F8-ED09-F192C8689C18" name="social_media_players_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>69898112-87C7-E9D6-32D3-00EA35C12624</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F85D1E24-77CE-D4A4-6CA4-D391DEB0D4A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D07252B-2979-5302-7702-25CDB06118FF" name="tvs">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>5E1A9221-28F4-9513-FB98-94C68CF89638</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tv_id" id="F0F5C534-B194-8485-9E2E-728BC60B0754">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>4C9803B2-4647-A851-C917-B81B2E4AF296</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tv_name" id="C779C2D9-1DB0-2ECA-BE4E-6D37917688D3">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>FC4D7765-4CEF-02E4-D7AB-83481D6DBB89</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="audience" id="F3C9B992-83F6-57E6-76F3-180825E47F3D">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>4E4D898B-55DF-8A52-6DFD-53C94F620C0D</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="E83AEE2A-D9B0-1D04-E955-D1205C54350A">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>EFFC78B7-802C-8A76-C574-300D675D8CF6</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="founded" id="D6058F86-8A62-70E1-B39B-CBA0F8BE8CD8">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>4FF809B6-32D6-C67C-616C-D654B88C3CE0</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1EFA512-633A-8767-864C-421E20F236C6" name="tvs_PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>205C0251-DAD6-ACAB-93A9-0CCF8563117A</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0F5C534-B194-8485-9E2E-728BC60B0754"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C40B87C-E0E7-3A87-FBCB-0C7E27AFBE2C" name="coaches">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>3A81F67F-BB47-06DE-8AD9-667CFB4BB3AE</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="DDA5BA12-2D7E-7D61-EC4A-8A3825A59642">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>28BD8B87-6276-B6EB-75EE-CB518BB0AE7F</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C9780F7-C0C0-CD69-83DD-D423542868BB" referredColumn="120E5727-8EC3-1570-3285-520918F061E3"/>
+</associations>
+</Column>
+<Column name="nickname" id="16C89F25-36F9-F54B-7E70-2CC0974AD8FD">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>A1F414EA-814F-AEE4-E120-631E19CE67C6</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="coach_type" id="B2685BD6-4D72-CB2C-045A-7450B929602A">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>2C89161D-C5BB-E9E7-6410-75FBDCFE386B</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="teams_team_id" id="50CE3F87-1681-187F-E4F5-8843A30A68CB">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>2E3DBC86-4969-8A0E-570F-748415D2D2B3</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99BDF8FF-632E-8C54-56FF-252295E98C17" referredColumn="CA64365D-74A6-FD56-FC27-F223ED78DEC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08E24756-22EA-53EC-AC80-EB995DEDD6DF" name="coaches_PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>769EA94B-104D-85EB-56B3-CF214B885F22</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDA5BA12-2D7E-7D61-EC4A-8A3825A59642"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C61F331-B57F-6D68-2F69-A49BC70ABA0B" name="coaches_employees_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>A3070B3C-D79B-D0FB-B195-053470535473</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDA5BA12-2D7E-7D61-EC4A-8A3825A59642"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51C87F01-278B-86D3-35CD-35A9812F69D9" name="coaches_teams_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>946E9F25-A349-0364-1AB5-B84A68B5B20B</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50CE3F87-1681-187F-E4F5-8843A30A68CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

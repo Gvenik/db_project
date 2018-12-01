@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C06FA4E6-F89E-3D54-1DB7-3A7238F3B8AE" name="teams_tactics">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tactics_tactics_id" id="86C0ACDC-9D72-0CD8-E377-EC4EC9A90568">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5758F79D-35FC-59D3-9C87-50968A7150FF" referredColumn="1A457A86-4892-8A2B-1360-D0822F8CF2E2"/>
+</associations>
+</Column>
+<Column name="teams_team_id" id="117227D9-D32F-2362-F3AB-AB6B63BB2CCE">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25748974-E507-7656-18EB-43592574CB89" referredColumn="CA64365D-74A6-FD56-FC27-F223ED78DEC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="733CCF56-E32F-74B8-199C-11260C83F07C" name="teams_tactics_PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86C0ACDC-9D72-0CD8-E377-EC4EC9A90568"/>
+<colUsage columnID="117227D9-D32F-2362-F3AB-AB6B63BB2CCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C469E3C-685F-AA63-6C68-E71AF15F9285" name="teams_tactics_tactics_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>AFD051DC-9747-3E2B-1ACC-C57A3F95376D</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86C0ACDC-9D72-0CD8-E377-EC4EC9A90568"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23D82066-9EE6-C156-98A5-62078EE38C03" name="teams_tactics_teams_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>AFD051DC-9747-3E2B-1ACC-C57A3F95376D</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="117227D9-D32F-2362-F3AB-AB6B63BB2CCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

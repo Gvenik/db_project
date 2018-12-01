@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="players_sponsors" directorySegmentName="seg_0" id="B5FE46CD-435F-F465-A13B-FC899ADE2443">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:01:49 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B37706D3-7241-A8D1-788B-C14EAAD82A0B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1611C90E-39B2-DD42-C826-56E4FFF19233</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="end_date" id="C536A18F-B10D-5D4C-5836-A59C46753886">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:02:35 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="start_date" id="3D7FA27B-6BCC-9255-82E8-1D0F6419851F">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:02:57 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F3A332E-7C0B-BB4E-4CA5-541D9255B4EE" name="players_sponsors">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="players_employee_id" id="18AC8EA2-D6B1-81DB-D535-D256557DF29E">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D42D344-C7EF-6C71-324E-1A57730E3F05" referredColumn="A878A00E-D4DC-B6EC-DF82-1CEF3597E5C7"/>
+</associations>
+</Column>
+<Column name="sponsors_sponsor_id" id="24DCDCA2-B948-BA91-97F8-673FF8E899F5">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="228A46BD-8AD5-C112-D3EF-CC0DD96BB332" referredColumn="9CBA109C-F294-F59A-0F20-7D5EDD3E1351"/>
+</associations>
+</Column>
+<Column name="end_date" id="C0D19F8D-C036-9C67-038B-B89FE6096C81">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>C536A18F-B10D-5D4C-5836-A59C46753886</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="start_date" id="3309375D-2158-75AB-040E-6BE4629F1FB1">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>3D7FA27B-6BCC-9255-82E8-1D0F6419851F</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B499ECF-D99B-707A-9E66-2460ECA27358" name="players_sponsors_PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18AC8EA2-D6B1-81DB-D535-D256557DF29E"/>
+<colUsage columnID="24DCDCA2-B948-BA91-97F8-673FF8E899F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="112F8748-BDB3-1687-98F0-B68FAEE40771" name="players_sponsors_players_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>B5FE46CD-435F-F465-A13B-FC899ADE2443</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18AC8EA2-D6B1-81DB-D535-D256557DF29E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F98E852A-45DC-ACAF-BA5A-39B07CD2E366" name="players_sponsors_sponsors_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>B5FE46CD-435F-F465-A13B-FC899ADE2443</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24DCDCA2-B948-BA91-97F8-673FF8E899F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

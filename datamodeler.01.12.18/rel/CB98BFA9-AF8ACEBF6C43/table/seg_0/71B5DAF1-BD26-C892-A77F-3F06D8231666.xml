@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71B5DAF1-BD26-C892-A77F-3F06D8231666" name="matches">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>3C2AD7CE-888C-4E37-C7B7-692BA425350F</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="match_id" id="43F43A9E-E6DA-EFBD-4FBF-77958C75A8C9">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>90BC5B27-4479-C07E-B49F-0C57854B8313</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="match_date" id="843F4B83-007B-FFC7-6CE0-1ED20AD24275">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>6115753E-9776-684A-4272-D364DAFADA8F</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minutes_played" id="1829F045-3000-FD73-CE8B-5D9D75A4F268">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>235FAE4C-8A74-1ED6-AF6A-9AE735C8B7DA</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weather" id="16BD0362-C8E8-94C6-B189-8F43EB3AEEFC">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>44F2055D-F3ED-289E-7873-1188021E36F5</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fixture_fixture_id" id="EC67A0F3-C677-0C7C-3576-E3410E0CE21F">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>A5D9EE9D-B984-FEF1-5026-FD612C862337</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA4BEEB8-5D7C-5770-DD11-580922D5E601" referredColumn="82F325F6-7EC0-9531-802D-2AA1B8AECD71"/>
+</associations>
+</Column>
+<Column name="stadiums_stadium_id" id="BAC0A584-3CFC-799B-240D-46DF58810F22">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>6DECF64B-DF72-64C0-1704-90E9D5A8707D</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CA68192-414A-A371-10B6-E94507907950" referredColumn="75919636-EF67-81CB-F32B-5BA3C99A9AF0"/>
+</associations>
+</Column>
+<Column name="leagues_leagues_id" id="8765A888-2CD2-5995-B5D5-56E8A34AAB49">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>1971901C-E158-D93B-1FB2-C3217FCFCF08</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D51FB956-77FE-7F81-ABBF-7C4116C94F6B" referredColumn="196AB22D-36E8-173D-8262-45293ED66513"/>
+</associations>
+</Column>
+<Column name="commentators_commentator_id" id="D9ADDF98-21B1-F7C8-73F7-3899D5661E6D">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>FB85D8CE-BBE9-B3C4-D91F-714B45B072EF</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA861624-A688-F67E-96D3-BBA8F8857869" referredColumn="047761B6-0FB2-3EE2-5923-F6A1ABCBA5EE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8943305B-0BB7-B71F-1BF3-9D29D965B808" name="matches_PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>01D55665-3109-7E63-8614-0373E584FE1E</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43F43A9E-E6DA-EFBD-4FBF-77958C75A8C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A346F12C-F2E3-FEAA-924D-35BDA2D16C8C" name="matches__IDX">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EC67A0F3-C677-0C7C-3576-E3410E0CE21F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24B967F5-F0E0-D61F-4B6E-8AD823AF5596" name="matches_fixture_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC67A0F3-C677-0C7C-3576-E3410E0CE21F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="773B04F8-D126-B4EE-4AF2-FC904949C912" name="matches_stadiums_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>A99D51DF-EA2D-A66D-C327-22690DCF96E4</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAC0A584-3CFC-799B-240D-46DF58810F22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="216BCD8F-40DE-3438-628E-64B9CEE5B6A7" name="matches_leagues_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>715469D6-A5DA-73E4-971E-58E98F1AF303</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8765A888-2CD2-5995-B5D5-56E8A34AAB49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1F1DE7A-F367-D42C-A2F4-23ABA8535AD5" name="matches_commentators_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>EF0C4DF6-5CAF-362D-FD07-AC66479E94F1</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9ADDF98-21B1-F7C8-73F7-3899D5661E6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

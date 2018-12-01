@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA4BEEB8-5D7C-5770-DD11-580922D5E601" containerWithKeyObject="71B5DAF1-BD26-C892-A77F-3F06D8231666" localFKIndex="24B967F5-F0E0-D61F-4B6E-8AD823AF5596" name="matches_fixture_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-01 12:00:32 UTC</createdTime>
+<generatorID>09F58AA5-6E96-0D27-148E-C2930925ECE7</generatorID>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<referredTableLongName>fixture</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EE6DCE14-9C62-E81A-0653-0D2EBF72B8B7</referredTableID>
+<keyObject>2EDB4071-CEF2-BA71-9571-7546A40FA599</keyObject>
+<referredKeyID>2EDB4071-CEF2-BA71-9571-7546A40FA599</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>fixture_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

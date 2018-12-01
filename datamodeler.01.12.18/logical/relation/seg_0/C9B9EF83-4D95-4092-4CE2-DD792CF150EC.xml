@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="teams_sponsors" directorySegmentName="seg_0" id="C9B9EF83-4D95-4092-4CE2-DD792CF150EC">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:12:53 UTC</createdTime>
+<ownerDesignName>datamodeler.01.12.18</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1611C90E-39B2-DD42-C826-56E4FFF19233</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA03E2A2-C972-99D3-20E9-11DA949CB1AB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
