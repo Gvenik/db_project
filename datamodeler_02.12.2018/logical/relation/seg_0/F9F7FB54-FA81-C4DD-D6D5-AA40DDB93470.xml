@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="players_injuries" directorySegmentName="seg_0" id="F9F7FB54-FA81-C4DD-D6D5-AA40DDB93470">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:18:33 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B37706D3-7241-A8D1-788B-C14EAAD82A0B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA0E3D9A-110D-71E2-E74B-939F77C75062</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="status" id="583521D8-D13C-71CC-50FF-787CB15050CF">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:18:50 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</attribute>
+<attribute name="injury_date" id="A4305BD5-B8CE-1BB0-4015-0F48D0278A95">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 12:19:19 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

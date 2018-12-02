@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="6524AEE9-2241-7B6D-E52E-D236EDF81B94" name="uniforms">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>8463E64F-5644-B75F-922A-22D022795551</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="firm" id="0D84DB9D-A2B4-5AF4-A519-2F670AC82A11">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>A88F1F77-991E-F18E-8B22-EBEEDAC5EA97</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color_scheme" id="D075734C-8A2F-DB41-B152-3C757FDE0515">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>158D682E-5AFE-DE57-CF84-ECC69EE8C79B</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fabric" id="0F63ABC3-8C4E-0D69-B2D3-0775432F1DB0">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>D92A29CA-7538-AB4C-CC6B-8A17ED3E25C3</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="teams_team_id" id="72A3A133-8FB6-3C75-9814-BD511901018E">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>6E27E5AC-E7C3-377E-8013-CC4D7F5310F3</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5681DB5-CEC8-44FA-22F1-0B721F7BC1B0" referredColumn="35D8052E-0C25-F6BF-8463-D41C8263247A"/>
+</associations>
+</Column>
+<Column name="man_firm_man_firm_id" id="7A407968-9151-783E-2072-09D7FC2EE5E1">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>298050C3-CC1F-7A5C-FF12-240B34D501C8</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CE85BCD5-CC14-DA3E-9590-FC2338E93FBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22FAF74F-DE0C-22FA-41D1-C6EE4AF1F8BA" referredColumn="F1575245-E1D8-1337-B898-2A392AA8B35C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3BA50BA-E916-DA4D-80F3-A82E050E8662" name="uniforms_PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>BC0A04AE-BCD1-D608-42A7-CD2F037A5213</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72A3A133-8FB6-3C75-9814-BD511901018E"/>
+<colUsage columnID="0D84DB9D-A2B4-5AF4-A519-2F670AC82A11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FF86F84-84C9-BC82-72CD-E2453C1212E3" name="uniforms_teams_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>CF56DB8E-4173-3432-9CE7-A3E79250340A</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72A3A133-8FB6-3C75-9814-BD511901018E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88EB1A4B-A0C4-F587-EBAF-86C52F833D4A" name="uniforms_man_firm_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>099A95F7-8148-44A4-BDF9-CBC4DC8EC337</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A407968-9151-783E-2072-09D7FC2EE5E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

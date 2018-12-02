@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C7D993B-31B2-9961-D931-E8C3E12BE827" name="social_media">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-11-29 17:04:06 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sm_id" id="482C7E9F-BB2C-1C00-0F95-4FB46F0AF05C">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-11-29 17:04:36 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CE85BCD5-CC14-DA3E-9590-FC2338E93FBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="twitter" id="248B2EC0-BFF0-DBBE-C898-CA9AFE70D75A">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-11-29 17:05:00 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="facebook" id="C45415F1-1F80-FB23-F68E-D87DF3D556C1">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-11-29 17:05:53 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subscribers_count" id="F9442775-C807-067B-027E-D16D04AE5EFD">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-11-29 17:06:10 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CE85BCD5-CC14-DA3E-9590-FC2338E93FBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instagram" id="3354C2F7-B299-5294-56E9-BC09B63F7B42">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-11-29 17:06:56 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="68A564FD-D177-3ACC-9EAE-6817F7D49924">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-11-29 17:08:13 UTC</createdTime>
+<generatorID>69898112-87C7-E9D6-32D3-00EA35C12624</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<referedAttribute>28BD8B87-6276-B6EB-75EE-CB518BB0AE7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CA4C73D-1176-0E97-3B1D-E0704731DE3C" name="social_media PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-11-29 17:04:58 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>482C7E9F-BB2C-1C00-0F95-4FB46F0AF05C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

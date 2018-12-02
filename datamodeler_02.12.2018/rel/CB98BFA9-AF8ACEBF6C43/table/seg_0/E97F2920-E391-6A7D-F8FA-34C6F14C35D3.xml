@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E97F2920-E391-6A7D-F8FA-34C6F14C35D3" name="legal_entity">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>E16C7A67-3A98-5D59-2C1E-DA63B65B3AF4</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="owner_id" id="C209D6AD-3782-209C-F7E0-A305368AC286">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>EB06D3BE-F860-2398-6521-7BA69C01C984</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EC7CF5B-6495-FC51-7249-B170C4EF9CB2" referredColumn="B307AD95-0286-2D5A-A717-658BD805DF07"/>
+</associations>
+</Column>
+<Column name="compamy_name" id="2460F235-E0B4-76C8-1D0B-BDD65AE1B03F">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>43AD5A4D-33DD-5741-A19C-A1AF8F68B5C2</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ident_number" id="C1AE4664-9662-7DED-0E90-56E4730637F7">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>D4CC64AF-D383-FD48-8570-A35B48C5AF1D</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CE85BCD5-CC14-DA3E-9590-FC2338E93FBF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock_name" id="D3DFA331-4B6F-5ED8-3C12-D1F11EF3DE95">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>67927770-9258-F951-0D92-D3322725164F</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42BF0880-A5D2-17FC-1C05-B5C63AECF9A8" name="legal_entity_PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>A0853C09-5640-3580-C392-D2975C647009</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C209D6AD-3782-209C-F7E0-A305368AC286"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD545D33-2E36-C766-8161-D312E22460C3" name="legal_entity_owners_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>ADCA5DBA-426C-871F-392C-5792EE1AC87B</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C209D6AD-3782-209C-F7E0-A305368AC286"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

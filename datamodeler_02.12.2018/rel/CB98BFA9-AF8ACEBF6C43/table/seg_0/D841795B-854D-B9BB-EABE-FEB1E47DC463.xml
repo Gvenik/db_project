@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D841795B-854D-B9BB-EABE-FEB1E47DC463" name="fixture">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>8A13655C-8CE0-DF66-EB74-B2E0623C935C</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fixture_id" id="DCCD9B62-A594-BB65-D47B-A6E329168510">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>3181E379-70C0-2F05-1E57-D080E635BDFF</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fixture_date" id="A47F3934-7BC6-C914-0AC1-8D81BE5E07B0">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>69EB5C53-150C-4391-639B-EF1E2738A473</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="teams_team_id" id="B7EF5991-27DC-5549-800A-7485E9F4F1FE">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>B1A18562-834B-3486-903E-0F8A3F909ACB</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C286EE19-F365-C9B6-72F6-E2DC378669FA" referredColumn="35D8052E-0C25-F6BF-8463-D41C8263247A"/>
+</associations>
+</Column>
+<Column name="teams_team_id1" id="2D0A1291-D5E6-9EC8-9A7B-48CFDE77E3C3">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>E58D8295-D8A0-EF58-F981-FC4A4EB3AE14</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="844ECD9B-4ED7-0AA1-AA7B-1949B750A938" referredColumn="35D8052E-0C25-F6BF-8463-D41C8263247A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BE3D892-4FA2-DC30-0B0B-1E0A70A74A16" name="fixture_PK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>E5D6748F-235F-534C-7CEF-4F8F660C6395</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCCD9B62-A594-BB65-D47B-A6E329168510"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23470947-77EC-78B9-4F8E-2590D224F4C6" name="fixture_teams_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>E17E5296-9537-003E-E0AE-714C47FE156E</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7EF5991-27DC-5549-800A-7485E9F4F1FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="638FB991-DCD0-6490-5A22-7B6DD6A23003" name="fixture_teams_FKv2">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>C787A229-B277-5DF1-08FA-210FA9769285</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D0A1291-D5E6-9EC8-9A7B-48CFDE77E3C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3C46DBBD-B3DD-DB34-D726-251B22CFB484" containerWithKeyObject="B5156C55-2783-7327-F17C-FB9E125A6F97" localFKIndex="12B8D775-A01E-79FA-94C8-6A8087A644C1" name="matches_commentators_FK">
+<createdBy>hovhannes</createdBy>
+<createdTime>2018-12-02 11:07:36 UTC</createdTime>
+<generatorID>EF0C4DF6-5CAF-362D-FD07-AC66479E94F1</generatorID>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<referredTableLongName>commentators</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9E0C0957-9522-C2AB-7F86-C2FA0D163AE1</referredTableID>
+<keyObject>FD9FC0B6-FCA9-6FFC-CAF3-6E6CF6AF8997</keyObject>
+<referredKeyID>FD9FC0B6-FCA9-6FFC-CAF3-6E6CF6AF8997</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>commentator_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

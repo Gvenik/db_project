@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="teams_tactics" directorySegmentName="seg_0" id="AFD051DC-9747-3E2B-1ACC-C57A3F95376D">
+<createdBy>CustomUserWin01</createdBy>
+<createdTime>2018-11-25 13:31:40 UTC</createdTime>
+<ownerDesignName>datamodeler_02.12.2018</ownerDesignName>
+<engineerTo>
+<item key="CB98BFA9-8B76-0DEF-810A-AF8ACEBF6C43" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>101878D7-8D65-E768-FC3D-C7FB368285EE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA03E2A2-C972-99D3-20E9-11DA949CB1AB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
